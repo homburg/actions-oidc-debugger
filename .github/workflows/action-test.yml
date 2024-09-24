@@ -35,3 +35,4 @@ jobs:
           azcliversion: latest
           inlineScript: |
             az account show
+            az keyvault secret list --vault-name oidc-test-keyvault
