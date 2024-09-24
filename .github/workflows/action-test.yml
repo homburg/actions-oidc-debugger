@@ -19,4 +19,4 @@ jobs:
       - name: Debug OIDC Claims
         uses: ./
         with:
-          audience: 'https://github.com/github'
+          audience: '${{ github.server_url }}/${{ github.repository_owner }}'
